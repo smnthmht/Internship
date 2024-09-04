@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Select Dropdown</title>
+</head>
+<body>
+    <h1>Multi-Select Dropdown Example</h1>
+
+    <form action="/submit" method="post">
+        <label for="fruits">Select your favorite fruits:</label>
+        <select id="fruits" name="fruits[]" multiple size="5">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+            <option value="date">Date</option>
+            <option value="grape">Grape</option>
+            <option value="mango">Mango</option>
+            <option value="orange">Orange</option>
+            <option value="pear">Pear</option>
+            <option value="pineapple">Pineapple</option>
+            <option value="watermelon">Watermelon</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
